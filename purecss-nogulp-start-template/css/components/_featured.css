@@ -1,0 +1,127 @@
+.featured{
+	border-image:  url(/img/images.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 1080px;
+	position: relative;
+}
+.featured__stories{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 35.3%;
+	background-color: rgba(17 , 31 , 42 , 0.9);
+	padding: 126px 133px;
+}
+.fetured__article{
+	padding-left: 9%;
+}
+.featured__container{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.blog-article__categoty{
+font-family: SF Pro Display;
+font-style: 400;
+font-weight: 800;
+font-size: 11px;
+line-height: 1;
+text-align: center;
+letter-spacing: 2px;
+color: white;
+padding: 15px 30px;
+background-color: var(--accent-color);
+border-radius: 100px;
+display: inline-block;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.blog-article__title{
+	font-family: SF Pro Display;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 64px;
+	color: white;
+	min-width: 40%;
+	margin-bottom: 18px;
+}
+.blog-article__descr{
+	font-family: SF Compact Text;
+	font-weight: 410;
+	font-size: 14px;
+	line-height: 21px;
+	color: white;
+	margin-bottom: 40px;
+	max-width: 40%;
+}
+.btn{
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 2 18182px;
+	text-transform: uppercase;
+	border-radius: 8px;
+	color: white;
+}
+.blog-article__link{
+	background-color: var(--neptune-color);
+	display: inline-block;
+	transition: background-color 0.3;
+}
+.blog-article__link:hover{
+	transition: background-color 0.3;
+	background-color: var(--neptune-hover-color);
+}
+.blog-article{
+	padding-bottom: 105px;
+}
+.featured__title{
+	font-family: SF Pro Display;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 80px;
+	color: white;
+	margin-bottom: 64px;
+}
+.feature-list__article{
+border-bottom: 1px solid #4d5a5f;
+display: flex;
+align-items: flex-start;
+padding: 32px 0;
+}
+.feature-list__item:last-child .feature-list__article{
+border-bottom: 1px solid transparent;
+}
+.feature-list__image{
+	border-radius:100% ;
+	overflow: hidden;
+	height: 48px;
+	width: 48px;
+	flex-shrink: 0;
+}
+.feature-list__image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.feature-list__title{
+	font-family: SF Pro Display;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	color: white;
+	margin-bottom: 5px;
+}
+.feature-list__time{
+	font-family: SF Pro Display;
+	font-size: 11px;
+	line-height: 13px;
+	color: rgba(255, 255, 255, 0.502293);
+}
+.feature-list__text{
+	margin-left: 32px;
+	padding-right: 35px;
+}
